@@ -1,0 +1,26 @@
+body, html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+      background-color: blue;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.max--width{
+  max-width: 1980px;
+}
+
+
+h1 {
+color: red;
+background-color: blue;
+}
+
